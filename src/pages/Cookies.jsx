@@ -292,7 +292,16 @@ function Cookies() {
                               914-449-1218
                             </a>
                           </p>
-                          <p>Address: 134 North Ave Ste 8, New Rochelle, NY 10801</p>
+                          <p>Address: 
+                            <a 
+                              href="https://maps.google.com/?q=134+North+Ave+Ste+8,+New+Rochelle,+NY+10801" 
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                              className="hover:text-green-600 transition-colors"
+                            >
+                              134 North Ave Ste 8, New Rochelle, NY 10801
+                            </a>
+                          </p>
                         </div>
                       </div>
                     </div>

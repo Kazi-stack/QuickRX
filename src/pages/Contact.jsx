@@ -84,8 +84,15 @@ function Contact() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2 text-gray-900">Address</h3>
-                    <p className="text-gray-600">134 North Ave Ste 8</p>
-                    <p className="text-gray-600">New Rochelle, NY 10801</p>
+                    <a 
+                      href="https://maps.google.com/?q=134+North+Ave+Ste+8,+New+Rochelle,+NY+10801" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-gray-600 hover:text-green-600 transition-colors"
+                    >
+                      <p>134 North Ave Ste 8</p>
+                      <p>New Rochelle, NY 10801</p>
+                    </a>
                   </div>
                 </div>
                 

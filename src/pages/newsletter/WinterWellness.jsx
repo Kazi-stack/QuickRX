@@ -189,7 +189,16 @@ function WinterWellness() {
                         Info@Quickrx134.com
                       </a>
                     </p>
-                    <p className="text-gray-700 mb-2">📍 Address: 134 North Ave Ste 8, New Rochelle, NY 10801</p>
+                    <p className="text-gray-700 mb-2">📍 Address: 
+                      <a 
+                        href="https://maps.google.com/?q=134+North+Ave+Ste+8,+New+Rochelle,+NY+10801" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="hover:text-green-600 transition-colors"
+                      >
+                        134 North Ave Ste 8, New Rochelle, NY 10801
+                      </a>
+                    </p>
                     <p className="text-gray-700">🕒 Hours: Monday - Friday: 9AM - 5PM</p>
                   </div>
                 </div>

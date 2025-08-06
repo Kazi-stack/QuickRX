@@ -567,7 +567,14 @@ function CopayAssistance() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="h-5 w-5 text-green-600" />
-                  <span className="text-gray-700 font-medium">134 North Ave Ste 8, New Rochelle, NY</span>
+                  <a 
+                    href="https://maps.google.com/?q=134+North+Ave+Ste+8,+New+Rochelle,+NY+10801" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gray-700 font-medium hover:text-green-600 transition-colors"
+                  >
+                    134 North Ave Ste 8, New Rochelle, NY
+                  </a>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Clock className="h-5 w-5 text-green-600" />

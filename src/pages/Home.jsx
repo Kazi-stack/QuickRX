@@ -465,8 +465,15 @@ function Home() {
                     <MapPin className="h-6 w-6 text-green-400" />
                   </div>
                   <div className="text-white">
-                    <p className="font-medium">134 North Ave Ste 8</p>
-                    <p className="text-blue-200 text-sm">New Rochelle, NY 10801</p>
+                    <a 
+                      href="https://maps.google.com/?q=134+North+Ave+Ste+8,+New+Rochelle,+NY+10801" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:text-green-400 transition-colors"
+                    >
+                      <p className="font-medium">134 North Ave Ste 8</p>
+                      <p className="text-blue-200 text-sm">New Rochelle, NY 10801</p>
+                    </a>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
