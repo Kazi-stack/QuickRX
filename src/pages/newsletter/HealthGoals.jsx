@@ -202,7 +202,11 @@ function HealthGoals() {
                     <h3 className="text-lg font-bold text-blue-900 mb-3">Start Your Health Journey Today</h3>
                     <p className="text-gray-700 mb-4">Ready to make 2025 your healthiest year yet? Contact QUICKRX PHARMACY to schedule a medication review and discuss your health goals with our expert pharmacists.</p>
                     <p className="text-gray-700 mb-2">📞 Phone: (914) 449-1218</p>
-                    <p className="text-gray-700 mb-2">📧 Email: Info@Quickrx134.com</p>
+                    <p className="text-gray-700 mb-2">📧 Email: 
+                      <a href="mailto:Info@Quickrx134.com">
+                        Info@Quickrx134.com
+                      </a>
+                    </p>
                     <p className="text-gray-700">🕒 Hours: Monday - Friday: 9AM - 5PM</p>
                   </div>
                 </div>

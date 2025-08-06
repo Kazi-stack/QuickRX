@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link, NavLink, Outlet } from 'react-router-dom'
 import { Button } from '@/components/ui/button.jsx'
-import MobileMenu from '@/components/ui/mobile-menu.jsx'
-import { Phone, Mail, MapPin, Printer } from 'lucide-react'
+import DropdownMenu from '@/components/ui/dropdown-menu.jsx'
+import { Phone, Mail, MapPin, Printer, Menu } from 'lucide-react'
 import quickrxLogo from '../assets/images/quickrx-logo.png'
 
 function Layout() {
@@ -12,7 +12,7 @@ function Layout() {
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
         <div className="flex items-center justify-between w-full">
-          <div className="flex items-center space-x-3 pl-4 lg:pl-8">
+          <div className="flex items-center space-x-3">
             <Link to="/" className="flex items-center space-x-3">
               <img src={quickrxLogo} alt="QuickRX Pharmacy Logo" className="h-10 w-auto" />
               <div className="flex flex-col leading-tight">
@@ -23,12 +23,11 @@ function Layout() {
           </div>
 
           <div className="block lg:hidden">
-            <MobileMenu />
+            <DropdownMenu />
           </div>
 
-          <div className="hidden lg:flex items-center w-full">
-            <div className="flex-1"></div>
-            <nav className="flex space-x-4 mx-20 flex-nowrap">
+          <div className="hidden lg:flex items-center justify-between w-full">
+            <nav className="flex space-x-6 ml-auto">
               {[
                 { to: "/", label: "Home" },
                 { to: "/services", label: "Services" },
@@ -45,8 +44,8 @@ function Layout() {
                   to={to}
                   className={({ isActive }) =>
                     isActive
-                      ? "text-green-600 font-medium whitespace-nowrap"
-                      : "text-gray-700 font-medium whitespace-nowrap"
+                      ? "text-green-600 font-medium"
+                      : "text-gray-700 font-medium"
                   }
                   end
                 >
@@ -55,12 +54,14 @@ function Layout() {
               ))}
             </nav>
 
-            <div className="flex items-center space-x-2 xl:space-x-4 ml-6">
+            <div className="flex items-center space-x-4 ml-6">
               <div className="flex items-center space-x-2">
-                <Phone className="h-4 w-4 text-green-600 flex-shrink-0" />
-                <span className="text-gray-700 font-medium text-sm whitespace-nowrap">914-449-1218</span>
+                  <Phone className="h-4 w-4 text-green-600" />
+                  <a href="tel:914-449-1218" className="text-gray-700 font-medium text-sm">
+                    914-449-1218
+                  </a>
               </div>
-              <Button className="bg-green-600 hover:bg-green-700 text-white text-sm px-3 py-2 xl:px-4" asChild>
+              <Button className="bg-green-600 hover:bg-green-700 text-white text-sm px-4 py-2" asChild>
                 <Link to="/refill">Online Refill</Link>
               </Button>
             </div>
@@ -122,16 +123,20 @@ function Layout() {
             <h4 className="font-semibold mb-4 text-white">Contact Info</h4>
             <ul className="space-y-3 text-blue-100">
               <li className="flex items-center space-x-2">
-                <Phone className="h-4 w-4 text-green-400" />
-                <span>Phone: 914-449-1218</span>
+                  <Phone className="h-4 w-4 text-green-400" />
+                  <a href="tel:914-449-1218">
+                    Phone: 914-449-1218
+                  </a>
               </li>
               <li className="flex items-center space-x-2">
                 <Printer className="h-4 w-4 text-green-400" />
                 <span>Fax: 914-449-1219</span>
               </li>
               <li className="flex items-center space-x-2">
-                <Mail className="h-4 w-4 text-green-400" />
-                <span className="break-words">Info@Quickrx134.com</span>
+                  <Mail className="h-4 w-4 text-green-400" />
+                  <a href="mailto:Info@Quickrx134.com" className='break-words'>
+                    Info@Quickrx134.com
+                  </a>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-green-400" />

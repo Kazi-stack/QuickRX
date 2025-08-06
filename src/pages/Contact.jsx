@@ -60,7 +60,9 @@ function Contact() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2 text-gray-900">Phone</h3>
-                    <p className="text-gray-600 mb-1">(914) 449-1218</p>
+                    <a href="tel:914-449-1218" className="text-gray-600 mb-1">
+                      (914) 449-1218
+                    </a>
                   </div>
                 </div>
                 
@@ -70,7 +72,9 @@ function Contact() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2 text-gray-900">Email</h3>
-                    <p className="text-gray-600 mb-1">Info@Quickrx134.com</p>
+                    <a href="mailto:Info@Quickrx134.com" className='text-gray-600 mb-1'>
+                      Info@Quickrx134.com
+                    </a>
                   </div>
                 </div>
                 

@@ -555,11 +555,15 @@ function CopayAssistance() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Phone className="h-5 w-5 text-green-600" />
-                  <span className="text-gray-700 font-medium">914-449-1218</span>
+                  <a href="tel:914-449-1218" className="text-gray-700 font-medium">
+                    914-449-1218
+                  </a>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="h-5 w-5 text-green-600" />
-                  <span className="text-gray-700 font-medium">Info@Quickrx134.com</span>
+                  <a href="mailto:Info@Quickrx134.com" className="text-gray-700 font-medium">
+                    Info@Quickrx134.com
+                  </a>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="h-5 w-5 text-green-600" />

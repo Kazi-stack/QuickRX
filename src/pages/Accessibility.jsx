@@ -239,7 +239,9 @@ function Accessibility() {
                           </div>
                           <div className="flex items-center space-x-2">
                             <Phone className="h-4 w-4" />
-                            <span>Phone: 914-449-1218</span>
+                            <a href="tel:914-449-1218">
+                              Phone: 914-449-1218
+                            </a>
                           </div>
                         </div>
                       </div>

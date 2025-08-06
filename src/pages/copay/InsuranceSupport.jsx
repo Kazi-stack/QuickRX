@@ -282,7 +282,10 @@ function InsuranceSupport() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
                 <Phone className="mr-2 h-5 w-5" />
-                Call 914-449-1218
+                Call 
+                <a href="tel:914-449-1218">
+                  914-449-1218
+                </a>
               </Button>
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-900">
                 <Mail className="mr-2 h-5 w-5" />

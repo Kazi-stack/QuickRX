@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Button } from '@/components/ui/button.jsx'
+import { Link } from 'react-router-dom'
 import { 
   Shield, Truck, Users, Heart, Pill, Stethoscope, Clipboard, Syringe, 
   Thermometer, Microscope, Eye, DollarSign, Banknote, Clock, Package, 
@@ -395,7 +396,9 @@ function Services() {
                             <div className="flex items-center space-x-4 text-sm text-gray-600">
                               <div className="flex items-center space-x-2">
                                 <Phone className="h-4 w-4 text-green-500" />
-                                <span>914-449-1218</span>
+                                <a href="tel:914-449-1218">
+                                  914-449-1218
+                                </a>
                               </div>
                               <div className="flex items-center space-x-2">
                                 <Clock className="h-4 w-4 text-blue-500" />
@@ -461,13 +464,17 @@ function Services() {
                         
                         <div className="mt-6 pt-4 border-t border-blue-200">
                           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                            <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg">
-                              <Phone className="h-4 w-4 mr-2" />
-                              Call for Details
+                            <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg" asChild>
+                              <Link to="/contact">
+                                <Phone className="h-4 w-4 mr-2" />
+                                Call for Details
+                              </Link>
                             </Button>
-                            <Button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg">
-                              <Mail className="h-4 w-4 mr-2" />
-                              Email Questions
+                            <Button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg" asChild>
+                              <Link to="/contact">
+                                <Mail className="h-4 w-4 mr-2" />
+                                Email Questions
+                              </Link>
                             </Button>
                           </div>
                         </div>

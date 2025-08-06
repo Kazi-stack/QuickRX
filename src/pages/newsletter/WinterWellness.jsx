@@ -184,7 +184,11 @@ function WinterWellness() {
                   <div className="bg-blue-100 p-6 rounded-lg mt-8">
                     <h3 className="text-lg font-bold text-blue-900 mb-3">Contact QUICKRX PHARMACY</h3>
                     <p className="text-gray-700 mb-2">📞 Phone: (914) 449-1218</p>
-                    <p className="text-gray-700 mb-2">📧 Email: Info@Quickrx134.com</p>
+                    <p className="text-gray-700 mb-2">📧 Email: 
+                      <a href="mailto:Info@Quickrx134.com">
+                        Info@Quickrx134.com
+                      </a>
+                    </p>
                     <p className="text-gray-700 mb-2">📍 Address: 134 North Ave Ste 8, New Rochelle, NY 10801</p>
                     <p className="text-gray-700">🕒 Hours: Monday - Friday: 9AM - 5PM</p>
                   </div>

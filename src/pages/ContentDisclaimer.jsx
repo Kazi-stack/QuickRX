@@ -163,7 +163,9 @@ function ContentDisclaimer() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-2">QuickRx Pharmacy</h4>
-                        <p className="text-gray-600">914-449-1218</p>
+                        <a href="tel:914-449-1218" className="text-gray-600">
+                          914-449-1218
+                        </a>
                         <p className="text-gray-600">info@quickrxpharmacy.com</p>
                       </div>
                       <div>

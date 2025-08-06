@@ -182,11 +182,15 @@ function HealthScreening() {
                   <div className="space-y-4">
                     <div className="flex items-center">
                       <Phone className="h-5 w-5 text-green-400 mr-3" />
-                      <span>914-449-1218</span>
+                        <a href="tel:914-449-1218">
+                          914-449-1218
+                        </a>
                     </div>
                     <div className="flex items-center">
                       <Mail className="h-5 w-5 text-green-400 mr-3" />
-                      <span>Info@Quickrx134.com</span>
+                      <a href="mailto:Info@Quickrx134.com">
+                        Info@Quickrx134.com
+                      </a>
                     </div>
                   </div>
                   <Button className="w-full mt-6 bg-white text-blue-900 hover:bg-blue-50 border-2 border-white font-semibold shadow-lg" asChild>

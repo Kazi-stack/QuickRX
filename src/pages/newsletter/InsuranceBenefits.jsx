@@ -213,7 +213,11 @@ function InsuranceBenefits() {
                     <h3 className="text-lg font-bold text-blue-900 mb-3">Need Help with Insurance Questions?</h3>
                     <p className="text-gray-700 mb-4">Our insurance specialists are here to help you understand your benefits and find ways to save on your prescriptions. Contact us today for a free insurance consultation.</p>
                     <p className="text-gray-700 mb-2">📞 Phone: (914) 449-1218</p>
-                    <p className="text-gray-700 mb-2">📧 Email: Info@Quickrx134.com</p>
+                    <p className="text-gray-700 mb-2">📧 Email: 
+                      <a href="mailto:Info@Quickrx134.com">
+                        Info@Quickrx134.com
+                      </a>
+                    </p>
                     <p className="text-gray-700">🕒 Hours: Monday - Friday: 9AM - 5PM</p>
                   </div>
                 </div>

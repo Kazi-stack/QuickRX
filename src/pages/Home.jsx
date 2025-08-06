@@ -443,7 +443,9 @@ function Home() {
                     <Phone className="h-6 w-6 text-green-400" />
                   </div>
                   <div className="text-white">
-                    <p className="font-medium">914-449-1218</p>
+                    <a href="tel:914-449-1218" className="font-medium">
+                      914-449-1218
+                    </a>
                     <p className="text-blue-200 text-sm">Call us anytime</p>
                   </div>
                 </div>
@@ -452,7 +454,9 @@ function Home() {
                     <Mail className="h-6 w-6 text-green-400" />
                   </div>
                   <div className="text-white">
-                    <p className="font-medium">Info@Quickrx134.com</p>
+                    <a href="mailto:Info@Quickrx134.com" className="font-medium">
+                      Info@Quickrx134.com
+                    </a>
                     <p className="text-blue-200 text-sm">Email us your questions</p>
                   </div>
                 </div>

@@ -286,7 +286,12 @@ function Cookies() {
                         </p>
                         <div className="space-y-1 text-gray-700">
                           <p>Email: privacy@quickrxpharmacy.com</p>
-                          <p>Phone: 914-449-1218</p>
+                          <p>
+                            Phone:
+                            <a href="tel:914-449-1218">
+                              914-449-1218
+                            </a>
+                          </p>
                           <p>Address: 134 North Ave Ste 8, New Rochelle, NY 10801</p>
                         </div>
                       </div>

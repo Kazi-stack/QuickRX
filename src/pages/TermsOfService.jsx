@@ -202,8 +202,16 @@ function TermsOfService() {
                 If you have any questions about these Terms of Service, please contact us:
               </p>
               <ul className="list-none space-y-2 text-gray-700">
-                <li><strong>By email:</strong> Info@Quickrx134.com</li>
-                <li><strong>By phone:</strong> 914-449-1218</li>
+                <li><strong>By email:</strong>
+                  <a href="mailto:Info@Quickrx134.com">
+                    Info@Quickrx134.com
+                  </a>
+                </li>
+                <li><strong>By phone:</strong>
+                  <a href="tel:914-449-1218">
+                    914-449-1218
+                  </a>
+                </li>
                 <li><strong>By mail:</strong> 123 Health Street, Medical District, City 12345</li>
               </ul>
             </div>

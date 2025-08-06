@@ -151,7 +151,10 @@ function HomeDelivery() {
                   <li><strong>Sunday:</strong> Limited delivery available for urgent medications</li>
                 </ul>
                 <p className="text-gray-600 mt-4">
-                  For specific delivery time requests, please call us at 914-449-1218.
+                  For specific delivery time requests, please call us at
+                  <a href="tel:914-449-1218">
+                    914-449-1218
+                  </a>.
                 </p>
               </CardContent>
             </Card>

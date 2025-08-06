@@ -317,3 +317,10 @@ button:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* Brute-force mobile navigation hide */
+@media (max-width: 1024px) {
+  .force-hide-nav {
+    display: none !important;
+  }
+}
+

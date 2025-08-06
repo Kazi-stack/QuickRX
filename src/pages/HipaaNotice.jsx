@@ -268,8 +268,16 @@ function HipaaNotice() {
                 <p className="text-gray-700">QuickRX Pharmacy</p>
                 <p className="text-gray-700">123 Health Street</p>
                 <p className="text-gray-700">Medical District, City 12345</p>
-                <p className="text-gray-700">Phone: 914-449-1218</p>
-                <p className="text-gray-700">Email: Info@Quickrx134.com</p>
+                <p className="text-gray-700">Phone: 
+                        <a href="tel:914-449-1218">
+                          914-449-1218
+                        </a>
+                </p>
+                <p className="text-gray-700">Email: 
+                  <a href="mailto:info@Quickrx134.com">
+                    info@Quickrx134.com
+                  </a>
+                </p>
               </div>
             </div>
           </div>
